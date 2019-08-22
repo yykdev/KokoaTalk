@@ -5,7 +5,7 @@
 > [ 참고 1 ] VSCode Code Formatter
 
 ```
- - Prettier 관련 영상: https://youtu.be/ya78lQi5vVI
+ - Prettier 관련 영상: [https://youtu.be/ya78lQi5vVI](https://youtu.be/ya78lQi5vVI)
 ```
 
 > [ 참고 2 ] 크롬 브라우저상의 컬러 추출 앱
