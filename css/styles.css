@@ -3,6 +3,10 @@
 @import "status-bar.css";
 @import "header.css";
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
     padding: 10px 20px;
