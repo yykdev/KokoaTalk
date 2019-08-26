@@ -1,0 +1,7 @@
+.chats__chat {
+    margin-bottom: 15px;
+}
+
+.chats__chat:last-child {
+    margin: 0;
+}
