@@ -1,6 +1,6 @@
 # 노마드 코더 카카오 클론 실습 강의
 
-> 실습 결과 : [https://nomadcoders-study.github.io/KokoaTalk/](https://nomadcoders-study.github.io/KokoaTalk/)
+> 실습 결과 : [https://yykdev.github.io/KokoaTalk/](https://yykdev.github.io/KokoaTalk/)
 
 ---
 
