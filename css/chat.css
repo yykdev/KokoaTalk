@@ -20,10 +20,9 @@
         0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
-.chat-screen__write {
+.chat-screen__write-container {
     position: fixed;
-    bottom: 50px;
-    width: 80%;
+    bottom: 0px;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -32,10 +31,41 @@
     align-items: center;
     background-color: #fcfcfc;
     padding: 0px 20px;
-    border-radius: 40px;
-    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+
+    /* box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
         0 18px 36px -18px rgba(0, 0, 0, 0.3),
-        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025); */
+}
+
+.chat-screen__write {
+    bottom: 0px;
+    width: 100%;
+    border-radius: 0;
+    padding: 20px 60px;
+    border: none;
+    font-size: 14px;
+}
+
+.chat-screen__icon-left {
+    position: absolute;
+}
+
+.chat-screen__icon-right {
+    position: absolute;
+    right: 10px;
+}
+
+.chat-screen__write:focus {
+    outline: none;
+}
+
+.chat-screen__icon-area {
+    font-size: 18px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.chat-screen__write:focus~.chat-screen__icon-area {
+    opacity: 0;
 }
 
 .chat-screen__write i {
@@ -51,10 +81,6 @@
     width: 100%;
     border: none;
     font-size: 14px;
-}
-
-.chat-screen__write-column input:focus {
-    outline: none;
 }
 
 .chat-screen .chat-screen__messages {
